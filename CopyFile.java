@@ -7,8 +7,8 @@ public class CopyFile {
 
         public static void main(String[] args) {
 
-            String src = "d:/TEST/加勒比海盗-黑珍珠号的诅咒.rmvb";
-            String dst = "d:/TEST/加勒比海盗-黑珍珠号的诅咒-Java复制.rmvb";
+            String src = "d:/TEST/1.rmvb";
+            String dst = "d:/TEST/1-Java复制.rmvb";
 
             long startTime = System.currentTimeMillis();
             copy(src, dst);
